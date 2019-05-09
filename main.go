@@ -19,7 +19,7 @@ func index(w http.ResponseWriter, r *http.Request) {
 
 	switch r.URL.Path[1:] {
 	case "ping":
-		fmt.Fprint(w, "SASI PISOS")
+		fmt.Fprint(w, "work")
 	case "hi":
 		fmt.Fprint(w, "holla")
 	default:
